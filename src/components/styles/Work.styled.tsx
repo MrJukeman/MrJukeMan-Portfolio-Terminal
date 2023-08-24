@@ -17,4 +17,8 @@ export const EduList = styled.div`
   .desc {
     color: ${({theme}) => theme.colors?.text[200]};
   }
+
+  .activeYear {
+    color: lawngreen;
+  }
 `;

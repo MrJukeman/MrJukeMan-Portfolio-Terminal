@@ -1,9 +1,8 @@
-import { createGlobalStyle, DefaultTheme } from "styled-components";
-import { normalize } from "styled-normalize";
+import {createGlobalStyle, DefaultTheme} from "styled-components";
+import {normalize} from "styled-normalize";
 
 const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   ${normalize}
-  
   *, ::before, ::after {
     border-width: 0;
     border-style: solid;
@@ -20,16 +19,17 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
     font-weight: inherit;
   }
 
-  img, svg, video, canvas, audio, 
+  img, svg, video, canvas, audio,
   iframe, embed, object {
     display: block;
   }
 
   body {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Cascadia Code', 'IBM Plex Mono', monospace;
     font-weight: 500;
-    background-color: ${({ theme }) => theme.colors?.body};
-    color: ${({ theme }) => theme.colors?.text[100]};
+    font-size: 14px;
+    background-color: ${({theme}) => theme.colors?.body};
+    color: ${({theme}) => theme.colors?.text[100]};
   }
 
   /* ===== Custom Scroll Bar ===== */
@@ -37,24 +37,28 @@ const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   ::-webkit-scrollbar {
     width: 15px;
   }
+
   /* Track */
   ::-webkit-scrollbar-track {
-    background: ${({ theme }) => theme.colors?.body};
+    background: ${({theme}) => theme.colors?.body};
   }
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.colors?.scrollHandle};
+    background: ${({theme}) => theme.colors?.scrollHandle};
   }
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: ${({ theme }) => theme.colors?.scrollHandleHover};
+    background: ${({theme}) => theme.colors?.scrollHandleHover};
   }
 
   input[type=text] {
-    background-color: ${({ theme }) => theme.colors?.body};
-    color: ${({ theme }) => theme.colors?.text[100]};
-    caret-color: ${({ theme }) => theme.colors?.primary};
+    background-color: ${({theme}) => theme.colors?.body};
+    color: ${({theme}) => theme.colors?.text[100]};
+    caret-color: ${({theme}) => theme.colors?.primary};
   }
+
   input[type=text]:focus-visible {
     outline: none;
   }

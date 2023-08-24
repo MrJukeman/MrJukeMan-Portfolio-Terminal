@@ -1,10 +1,10 @@
-import { Wrapper } from "../styles/Output.styled";
+import {Wrapper} from "../styles/Output.styled";
 
 type Props = {
-  children: string;
+    children: string;
 };
 
-const GeneralOutput: React.FC<Props> = ({ children }) => (
-  <Wrapper>{children}</Wrapper>
+const GeneralOutput: React.FC<Props> = ({children}) => (
+    <Wrapper>{children}</Wrapper>
 );
 export default GeneralOutput;

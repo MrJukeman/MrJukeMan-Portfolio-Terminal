@@ -1,19 +1,12 @@
 import React from "react";
-import {
-  HeroContainer,
-  PreName,
-  PreNameMobile,
-  PreWrapper,
-  Seperator,
-  Cmd, // Make sure to import this if it's not already imported
-} from "../styles/Welcome.styled";
+import {Cmd, HeroContainer, PreName, PreNameMobile, PreWrapper, Seperator,} from "../styles/Welcome.styled";
 
 const Welcome: React.FC = () => {
-  return (
-    <HeroContainer data-testid="welcome">
-      <div className="info-section">
-        <PreName>
-          {`
+    return (
+        <HeroContainer data-testid="welcome">
+            <div className="info-section">
+                <PreName>
+                    {`
 88b           d88                      88               88
 888b         d888                      88               88
 88\`8b       d8'88                      88               88
@@ -23,11 +16,11 @@ const Welcome: React.FC = () => {
 88    \`888'    88  88          88,   ,d88  "8a,   ,a88  88\`"Yba,   "8b,   ,aa  88      88      88  88,    ,88  88       88
 88     \`8'     88  88           "Y8888P"    \`"YbbdP'Y8  88   \`Y8a   \`"Ybbd8"'  88      88      88  \`"8bbdP"Y8  88       88
 `}
-        </PreName>
+                </PreName>
 
-        <PreWrapper>
-          <PreNameMobile>
-            {`
+                <PreWrapper>
+                    <PreNameMobile>
+                        {`
         
         |\\/|  _ 
         |  | |  
@@ -37,17 +30,17 @@ const Welcome: React.FC = () => {
         __) |_| |( (- ||| (_| | ) 
                                           
 `}
-          </PreNameMobile>
-        </PreWrapper>
-        <div>Welcome to MrJukeman's Terminal</div>
-        <Seperator>----</Seperator>
-        <div>
-          For a list of available commands, type <Cmd>help</Cmd>.
-        </div>
-        <br />
-      </div>
-    </HeroContainer>
-  );
+                    </PreNameMobile>
+                </PreWrapper>
+                <div>Welcome to MrJukeman's Terminal</div>
+                <Seperator>----</Seperator>
+                <div>
+                    For a list of available commands, type <Cmd>help</Cmd>.
+                </div>
+                <br/>
+            </div>
+        </HeroContainer>
+    );
 };
 
 export default Welcome;
