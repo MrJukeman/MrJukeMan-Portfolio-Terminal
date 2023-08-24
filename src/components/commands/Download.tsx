@@ -10,7 +10,7 @@ const Download: React.FC = () => {
 
     if (rerender && currentCommand[0] === "download" && currentCommand.length <= 1) {
 
-       window.open("/resume.pdf", "_blank");
+       window.open("https://projects.rajuchoudhary.com.np/resume.pdf", "_blank");
     }
     return (
         <Wrapper>
