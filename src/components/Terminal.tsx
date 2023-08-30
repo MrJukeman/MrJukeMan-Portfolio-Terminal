@@ -35,7 +35,7 @@ export const commands: Command = [
   { cmd: "history", desc: "View Command History", tab: 6 },
   { cmd: "projects", desc: "View All My Projects", tab: 5 },
   { cmd: "work", desc: "My Work Experience", tab: 9 },
-  { cmd: "games", desc: "Lets Play Some Game I Made", tab: 9 },
+  { cmd: "games", desc: "Lets Play Some Game I Made", tab: 8 },
   { cmd: "download", desc: "Download My Resume (PDF)", tab: 5 },
   { cmd: "pwd", desc: "Your Current Working Directory", tab: 10 },
   { cmd: "socials", desc: "View MrJukeman's Social Links", tab: 6 },
