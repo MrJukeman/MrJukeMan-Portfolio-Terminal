@@ -51,7 +51,7 @@ const Game = [
     id: 1,
     title: "Tower Block",
     desc: "A javascript based Tower Building Block Games",
-    url: "https://projects.rajuchoudhary.com.np/tower-block",
+    url: "https://games.rajuchoudhary.com.np/Tower-Block/",
   },
 ];
 

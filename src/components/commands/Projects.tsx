@@ -56,14 +56,14 @@ const projects = [
         id: 2,
         title: "R-Drive",
         desc: "A Cloud Based Storage Solution, Developed using React and Laravel.",
-        url: "https://projects.rajuchoudhary.com.np/drive",
+        url: "https://drive.rajuchoudhary.com.np/",
         repo: "",
     },
     {
         id: 3,
         title: "Ry-Store",
         desc: "A Multi-Vendor E-commerce Platform, Developed using Core PHP, and NodeJS with AI based recommended system and Socket based Chat System.",
-        url: "https://projects.rajuchoudhary.com.np/ecommerce/",
+        url: "https://ecommerce.rajuchoudhary.com.np/",
         repo: "",
     },
     {
