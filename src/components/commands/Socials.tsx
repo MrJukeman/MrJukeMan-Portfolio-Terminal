@@ -47,13 +47,13 @@ const socials = [
     {
         id: 1,
         title: "GitHub",
-        url: "https://github.com/razoo-choudhary",
+        url: "https://github.com/MrJukeman",
         tab: 3,
     },
     {
         id: 2,
         title: "LinkedIn",
-        url: "https://linkedin.com/in/razoo-choudhary/",
+        url: "https://linkedin.com/in/MrJukeman/",
         tab: 1,
     },
     {
@@ -65,7 +65,7 @@ const socials = [
     {
         id: 4,
         title: "Instagram",
-        url: "https://instagram.com/razoo.choudhary69/",
+        url: "https://instagram.com/MrJukeman/",
         tab: 0,
     },
 ];
